@@ -36,13 +36,13 @@ function mintNFT (name, eyeColor, hairColor, gender, shirtType, bling) {
 // and print their metadata with console.log()
 function listNFTs () {
     for(let i = 0; i < varNFTs.length; i++){
-        console.log("\nID: \t\t\t\t" + (i + 1)); //\n = new line ; \t = tab
-        console.log("Name: \t\t\t" + varNFTs[i].name);
+        console.log("\nID: \t\t" + (i + 1)); //\n = new line ; \t = tab
+        console.log("Name: \t\t" + varNFTs[i].name);
         console.log("Eye Color: \t" + varNFTs[i].eyeColor);
         console.log("Hair Color: " + varNFTs[i].hairColor);
-        console.log("Gender: \t\t" + varNFTs[i].gender);
+        console.log("Gender: \t" + varNFTs[i].gender);
         console.log("Shirt Type: " + varNFTs[i].shirtType);
-        console.log("Bling: \t\t\t" + varNFTs[i].bling);
+        console.log("Bling: \t\t" + varNFTs[i].bling);
     }
 }
 
